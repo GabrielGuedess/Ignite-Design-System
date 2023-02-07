@@ -32,4 +32,6 @@ export const Text = styled('p', {
   },
 });
 
+Text.displayName = 'Text';
+
 export type TextProps = { as?: ElementType } & ComponentProps<typeof Text>;
