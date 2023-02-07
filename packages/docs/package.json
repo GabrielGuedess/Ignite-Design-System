@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "start-storybook -p 6006",
+    "dev": "start-storybook -p 6006 -no-manager-cache",
     "deploy-storybook": "storybook-to-ghpages",
     "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook"
   },
