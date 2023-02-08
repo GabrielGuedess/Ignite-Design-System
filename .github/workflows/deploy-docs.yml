@@ -31,6 +31,8 @@ jobs:
       - run: yarn install --frozen-lockfile
 
       - run: yarn build
+        env:
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy storybook
         working-directory: ./packages/docs

@@ -1,6 +1,6 @@
-import { ComponentProps, ElementType } from 'react';
+import { ComponentProps, ElementType } from 'react'
 
-import { styled } from '../styles';
+import { styled } from '../styles'
 
 export const Button = styled('button', {
   all: 'unset',
@@ -87,8 +87,8 @@ export const Button = styled('button', {
     variant: 'primary',
     size: 'md',
   },
-});
+})
 
-Button.displayName = 'Button';
+Button.displayName = 'Button'
 
-export type ButtonProps = { as?: ElementType } & ComponentProps<typeof Button>;
+export type ButtonProps = { as?: ElementType } & ComponentProps<typeof Button>

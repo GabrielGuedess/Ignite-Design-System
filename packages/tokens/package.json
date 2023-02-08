@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "1.0.0",
+  "name": "@guedes-ignite-ui/tokens",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,8 +11,8 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@guedes-ignite-ui/ts-config": "*",
+    "@guedes-ignite-ui/eslint-config": "*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.5"
   }

@@ -1,8 +1,8 @@
-import { ElementType } from 'react';
+import { ElementType } from 'react'
 
-import { ComponentProps } from '@stitches/react';
+import { ComponentProps } from '@stitches/react'
 
-import { styled } from '../styles';
+import { styled } from '../styles'
 
 export const Heading = styled('h2', {
   fontFamily: '$default',
@@ -25,10 +25,8 @@ export const Heading = styled('h2', {
   defaultVariants: {
     size: 'md',
   },
-});
+})
 
-Heading.displayName = 'Text';
+Heading.displayName = 'Text'
 
-export type HeadingProps = { as?: ElementType } & ComponentProps<
-  typeof Heading
->;
+export type HeadingProps = { as?: ElementType } & ComponentProps<typeof Heading>

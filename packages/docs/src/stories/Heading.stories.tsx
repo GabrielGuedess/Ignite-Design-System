@@ -1,6 +1,6 @@
-import type { StoryObj, Meta } from '@storybook/react';
+import type { StoryObj, Meta } from '@storybook/react'
 
-import { Heading, HeadingProps } from '@ignite-ui/react';
+import { Heading, HeadingProps } from '@guedes-ignite-ui/react'
 
 export default {
   title: 'Typography/Heading',
@@ -8,9 +8,9 @@ export default {
   args: {
     children: 'Custom title',
   },
-} as Meta<HeadingProps>;
+} as Meta<HeadingProps>
 
-export const Primary: StoryObj<HeadingProps> = {};
+export const Primary: StoryObj<HeadingProps> = {}
 
 export const CustomTag: StoryObj<HeadingProps> = {
   args: {
@@ -25,4 +25,4 @@ export const CustomTag: StoryObj<HeadingProps> = {
       },
     },
   },
-};
+}

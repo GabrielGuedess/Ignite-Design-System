@@ -1,8 +1,8 @@
-import { ElementType } from 'react';
+import { ElementType } from 'react'
 
-import { ComponentProps } from '@stitches/react';
+import { ComponentProps } from '@stitches/react'
 
-import { styled } from '../styles';
+import { styled } from '../styles'
 
 export const Text = styled('p', {
   fontFamily: '$default',
@@ -30,8 +30,8 @@ export const Text = styled('p', {
   defaultVariants: {
     size: 'md',
   },
-});
+})
 
-Text.displayName = 'Text';
+Text.displayName = 'Text'
 
-export type TextProps = { as?: ElementType } & ComponentProps<typeof Text>;
+export type TextProps = { as?: ElementType } & ComponentProps<typeof Text>
