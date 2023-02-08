@@ -1,0 +1,2 @@
+import{A as t}from"./index.71bbb536.js";import"./index.a0e75679.js";import"./iframe.3127e30f.js";import"./index.89f94948.js";import"./jsx-runtime.28eeb03f.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/GabrielGuedess.png",alt:"Gabriel Guedes"}},m={},p={args:{src:void 0}},c=["Primary","WithFallback"];export{m as Primary,p as WithFallback,c as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.c835a4b2.js.map
